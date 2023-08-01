@@ -7,11 +7,22 @@ import styles from '../styles/Home.module.css'; // Importing the CSS module for 
 function Home() {
   // Defining an array of cards representing the deck with their unique IDs, names, and image URLs
   const deck = [
-    // Each card has a unique id, name, and image associated with it
-    // The deck contains duplicate cards to form pairs for the memory game
-    // The game will match cards with the same name
-    // You can add more cards or modify the existing ones to expand or customize the game
-    // For example, you can add more unique cards with different images and names
+    { id: 1, name: 'billiard ball', image: '/billiardball.svg' },
+    { id: 2, name: 'billiard ball', image: '/billiardball.svg' },
+    { id: 3, name: 'bubble tea', image: '/bubbletea.svg' },
+    { id: 4, name: 'bubble tea', image: '/bubbletea.svg' },
+    { id: 5, name: 'cactus', image: '/cactus.svg' },
+    { id: 6, name: 'cactus', image: '/cactus.svg' },
+    { id: 7, name: 'dog', image: '/dog.svg' },
+    { id: 8, name: 'dog', image: '/dog.svg' },
+    { id: 9, name: 'laptop', image: '/laptop.svg' },
+    { id: 10, name: 'laptop', image: '/laptop.svg' },
+    { id: 11, name: 'octopus', image: '/octopus.svg' },
+    { id: 12, name: 'octopus', image: '/octopus.svg' },
+    { id: 13, name: 'strawberry', image: '/strawberry.svg' },
+    { id: 14, name: 'strawberry', image: '/strawberry.svg' },
+    { id: 15, name: 'sunglasses', image: '/sunglasses.svg' },
+    { id: 16, name: 'sunglasses', image: '/sunglasses.svg' },
   ];
 
   // Setting up state variables using the useState hook
