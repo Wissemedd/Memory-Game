@@ -6,6 +6,20 @@
   grid-template-rows: 50px 1fr;
 }
 
+/* Mobile devices */
+@media only screen and (max-width: 767px) {
+  .home {
+    grid-template-rows: 50px auto;
+    /* Add any specific mobile styles here */
+  }
+}
+
+/* Desktop devices */
+@media only screen and (min-width: 768px) {
+  /* Add any specific desktop styles here */
+}
+
+
 .header {
   width: 100%;
   padding: 20px 20px 0px 20px;
